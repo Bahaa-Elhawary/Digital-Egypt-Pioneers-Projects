@@ -1,0 +1,106 @@
+@import url('./variables.css');
+@import url('./utilities.css');
+
+h1{
+    color: var(--main-color);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/space.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form {
+    background-color: #1d0d50;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--text-color);
+    border: 3px #ee6f00 solid;
+    width: 350px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.email {
+    background-image: url(../img/email.svg);
+    background-repeat: no-repeat;
+    background-position: right 5% bottom 45%;
+    background-size: 2rem;
+}
+    
+
+.password {
+    background-image: url(../img/password.svg);
+    background-repeat: no-repeat;
+    background-position: right 5% bottom 45%;
+}
+
+button {
+    background-color: #ee6f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #5a6268;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img{
+    border-radius: 50%;
+}
+
+form{
+text-align: left;
+}
+
+.create{
+    color: #ee6f00;
+}
